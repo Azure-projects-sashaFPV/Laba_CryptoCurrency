@@ -5,11 +5,10 @@ using System.Threading.Tasks;
 
 namespace Laba_CryptoCurrency.Models
 {
-    public class CryptoCurrency
+    public class TimeInterval
     {
         public int Id { get; set; }
-        public string CryptoPair { get; set; }
-        public string Interval { get; set; }
-        public List<TimeInterval> TimeIntervals { get; set; } 
+        public DateTime Time { get; set; }
+        public double Price { get; set; }
     }
 }

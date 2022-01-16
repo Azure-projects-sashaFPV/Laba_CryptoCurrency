@@ -14,5 +14,6 @@ namespace Laba_CryptoCurrency.Data
         public DataManager(DbContextOptions options) : base(options)
         { }
         public DbSet<CryptoCurrency> CryptoCurrencies { get; set; }
+        public DbSet<TimeInterval> TimeIntervals { get; set; }
     }
 }
